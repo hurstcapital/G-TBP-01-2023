@@ -27,12 +27,9 @@ Crie uma API para gerenciar reservas de hotéis usando a linguagem de programaç
 7. Implemente um mecanismo que, quando o check-in é feito, o saldo do usuário seja gasto de acordo com o valor da reserva.
    - Dica: Crie um endpoint para registrar o check-in do usuário e, em seguida, atualize o saldo do usuário no banco de dados.
 
-8. Adapte a solução para utilizar a arquitetura baseada em funções Lambda e mensageria.
-   - Dica: Use AWS Lambda para implementar as funções e Amazon SQS ou SNS para mensageria.
+8. Escreva testes unitários e de integração para a API.
 
-9. Escreva testes unitários e de integração para a API.
-
-10. Use boas práticas de desenvolvimento, como modularização, tratamento de erros e validação de dados.
+9. Use boas práticas de desenvolvimento, como modularização, tratamento de erros e validação de dados.
 
 ## Recursos adicionais (opcionais)
 
@@ -43,5 +40,9 @@ Crie uma API para gerenciar reservas de hotéis usando a linguagem de programaç
    - Dica (Node.js): Utilize o Redis como cache.
 
 3. Implemente um mecanismo de log para registrar eventos e erros na API
+
+
+4. Adapte a solução para utilizar a arquitetura baseada em funções Lambda e mensageria.
+   - Dica: Use AWS Lambda (Serverless framework) para implementar as funções e Amazon SQS ou SNS para mensageria.
 
 Ao concluir o teste, forneça instruções claras sobre como instalar, configurar e executar a API, bem como os testes associados. Se você optar por não fornecer código, explique como abordaria cada etapa do projeto, levando em consideração o uso de um banco de dados não relacional e uma arquitetura baseada em funções Lambda e mensageria.
